@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-image: url(https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:2000px 1300px ;
+    font-family: monospace;
+    font-size:xx-large;
+    font-weight: 400px;
+}
+</style>
+<body>
+    <main>
+        <div id="main-div">
+        <h1 id="title">Welcome to applytouniversity website.</h1><br>
+        <p id="description">This website will help you sign up for the universtiy of your choice, please enter your information bellow so we can contact you.</p><br>
+        <fieldset>
+            <legend>Important information about the person singing up for the university</legend>
+        <div>
+            <form id="survey-form" required>
+                <input type="radio" name="student-professor" value="student">student</button>
+                <input type="radio" name="student-professor" value="professor">professor</button><br>
+            <input type="checkbox" name="student-interests" value="business">business<br>
+              <input type="checkbox" name="student-interests" value="architecture">architecture<br>
+              <input type="checkbox" name="student-interests" value="computer science">computer science<br>
+              <input type="checkbox" name="student-interests" value="medicine">medicine<br>
+            <p>current state of the person singing up</p>
+          <select id="dropdown" name="state-of-student">
+                    <option value="graduated-this-year">I graduated from highschool this year and I am looking for a university to continue my academic studying.</option><br>
+                    <option value="graduted-a-while-ago">I graduated from highschool but stopped pursuing academic studying until now.</option><br>
+                </select><br>
+                <label id="age-label" for="age">age:</label><br>
+                <input type="number" id="age" name="age" placeholder="age here"><br>
+                <label id="name-label" for="name">name:</label><br>
+                <input id="name" type="text" placeholder="name here" required><br>
+                <label id="email-label" for="email">email:</label><br>
+                <input id="email" type="email" placeholder="email here" required><br>
+                <label id="number-label" for="number">number:</label><br>
+                <input id="number" type="number" placeholder="enter number" min="10" max="10" required><br>
+                <label id="university-name-label" for="university-name">enter the university name of which you want to apply to:</label><br>
+                <input type="text" id="university-name" placeholder="university name" required><br>
+                <label for="state-of-student">Choose your current state</label><br>
+              <label for="why-suitable">Tell us why you want to join the university of choice and how you are well equiped for that university:</label><br>
+    <textarea id="why-suitable" cols="100" rows="10"></textarea>
+    </textarea>
+          <button id="submit" type="submit" value="submit">submit</button><br>
+            </form>
+        </div>
+    </fieldset>
+    
+
+
+    </div>
+    </main>
+</body>
+<!-- -->
+</html>
